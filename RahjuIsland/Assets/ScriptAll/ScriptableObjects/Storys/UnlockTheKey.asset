@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70753e761c92d5b4faf06ea7aff84cdb, type: 3}
+  m_Name: UnlockTheKey
+  m_EditorClassIdentifier: 
+  description: 'You Unlock Package And...
+
+    Option :
+
+    A.Back with TimeMachine(backtostartingstory)
+
+    B.OpenThePackage(openthepackage)'
+  roomName: startthegame story
+  startgames:
+  - keyString: openthepackage
+    StartGameDescription: You Begin
+    valueStory: {fileID: 11400000, guid: d8b16aa1f55e11540b8d85466274d368, type: 2}
+  - keyString: backtostartingstory
+    StartGameDescription: You Begin
+    valueStory: {fileID: 11400000, guid: e6cdf19ffe5ca71488c808883887996b, type: 2}

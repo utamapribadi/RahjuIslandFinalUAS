@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70753e761c92d5b4faf06ea7aff84cdb, type: 3}
+  m_Name: EndGame
+  m_EditorClassIdentifier: 
+  description: '~Thank You for Playing Have Fun :)
+
+
+    Credits'
+  roomName: starting story
+  startgames:
+  - keyString: unlockthekey
+    StartGameDescription: unlock
+    valueStory: {fileID: 11400000, guid: 9470a3fd22dc3194da2bb7f58215322a, type: 2}
+  - keyString: sleepagain
+    StartGameDescription: YouSleepAndNeverWakeUp
+    valueStory: {fileID: 11400000, guid: 46dfb0a90c7039444a4c9c67160f56fb, type: 2}
